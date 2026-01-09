@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>قصص الأنبياء الكاملة</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="screen-login">
+  <h1>قصص الأنبياء</h1>
+  <button onclick="goName()">دخول</button>
+</div>
+
+<div id="screen-name" class="hidden">
+  <input id="username" placeholder="اكتب اسمك">
+  <button onclick="welcomeUser()">متابعة</button>
+</div>
+
+<div id="screen-voice" class="hidden">
+  <h3>اختر صوت القراءة</h3>
+  <select id="voiceSelect"></select>
+  <button onclick="confirmVoice()">تأكيد</button>
+</div>
+
+<div id="screen-menu" class="hidden">
+  <h3>اختر القصة</h3>
+  <div id="storiesList"></div>
+</div>
+
+<div id="screen-story" class="hidden">
+  <h2 id="storyTitle"></h2>
+  <div id="storyText"></div>
+  <button onclick="readStory()">🎤 قراءة بالصوت</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

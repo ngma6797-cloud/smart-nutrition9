@@ -1,0 +1,36 @@
+body{
+  background:#020617;
+  color:white;
+  font-family:Tahoma, Arial;
+  text-align:center;
+  padding:20px;
+}
+
+.hidden{display:none}
+
+button{
+  padding:12px 25px;
+  margin:10px;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+input,select{
+  padding:12px;
+  font-size:16px;
+  margin:10px;
+}
+
+#storyText{
+  margin-top:25px;
+  line-height:2.2;
+  text-align:justify;
+  direction:rtl;
+}
+
+#storyText span.active{
+  background:yellow;
+  color:black;
+}
